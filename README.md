@@ -1,3 +1,4 @@
+源代码会在将来公开  
 # ONScripter-jh-PSVita
 ## ONScripter-jh (SDL2) for PSVita branch
 # 已经构建完毕
