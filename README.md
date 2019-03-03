@@ -1,40 +1,24 @@
-源代码会在将来公开  
 # ONScripter-jh-PSVita
-## ONScripter-jh (SDL2) for PSVita branch
-# 已经构建完毕
-## 阉割了部分显示效果以换来游戏的稳定运行，正在进行游戏测试
-PS:2018.12.19  文本框背景效果阉割因为会导致所有对话框背景消失，所以此功能要尽量保留。
-# 目前内测版存在的主要问题
-## 0x0一切视频无法播放
-原jh版需要smpeg支持，正在想办法移植smpeg(因为找不到233)  
-2018.12.19  经过一天的研究，smpeg基本没什么问题了，但是发现smpeg只能加载MPEG-1格式视频，所以用途不是很大，先搁置。优先解决读取背景问题
-## 0x1存在未知的崩溃BUG
-仍在测试统计中
-# 预计2019年放出beta版
-
-## private 2017-2018
-无UI版
-## alpha0.1 2018.12.17
-简单的vita2d UI选择游戏界面
-## alpha0.2 2018.12.18
-0x0修复游戏数为0导致崩溃的BUG  
-0x1修复上下键选择游戏显示BUG
-## alpha0.3 2018.12.23
-0x0修复内存不足的BUG，此BUG曾导致很多游戏资源无法正常读取。  
-0x1准备增加视频播放相关
-# alpha0.3已经能运行绝大多数ONS游戏了，除了视频不能播放
-## private 2018.12.25-now
-### 开始移植savemgr的GUI界面
-0x0移植起来挺麻烦的，比自己写要慢，但是效果肯定是移植的好...  
-0x1最近学业比较繁忙，原计划在31号发布，但因为比赛所以暂定元旦假期发布  
-0x2[2019.12.30]增加启动设定方面的功能  
-0x3[2019.1.1]增加触摸开关、优化一些UI细节  
-0x4[2019.1.2]增加无UI启动游戏功能，为ONS游戏独立气泡做准备  
-### private 2019.1.2-now  
-0x0 ONScripter-jh更新0.7.6版(移植用的是0.7.4版)，准备同步移植最新版，新版稳定后将转移至0.7.6版进行开发  
+## 详细的更新日志请访问 http://maho.wang/?id=21 
+## 目前已知BUG列表 http://maho.wang/?id=23
 
 ## 感谢
-ONScripter-jh 作者：jh10001（@jh2711H）  
-SDL2-Vita 和 SDL2相关库（ttf、mixer、image） 维护者：rsn8887  
-VITASDK   
-...待补充。  
+感谢 小凱（@kane33936）一直以来的支持！ 
+感谢 jh10001 对我一些可笑问题的解答！ 
+感谢 唯一、小凱、光影的初期协助测试！ 
+## 源代码支持
+ONScripter-jh 作者：jh10001（@jh2711H） 
+SDL2-Vita 和 SDL2相关库（ttf、mixer、image） 作者：rsn8887 
+VitaShell 作者：TheOfficialFloW（TheFlow） 
+vita-savemgr 作者：d3m3vilurr 
+vhbb 作者：devnoname120 
+vitacompanion 作者：devnoname120 
+debugnet 作者：psxdev 
+sdlpal-vita 作者：usineur 
+iniparser 作者：ndevilla 
+libvita2d 作者：xerpi 
+vita-luajit 作者：hyln9 
+VITASDK 
+Vita3K 
+更多待补充。 
+
