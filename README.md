@@ -5,6 +5,7 @@
 GUI源代码(太乱了)和makefile会在整理完后上传，大学狗没什么时间，可能会鸽一段时间  
 
 ## 详细信息
+beta0.2版本下载 http://maho.wang/?id=21  
 更新日志请访问 http://maho.wang/?id=21  
 目前已知BUG列表 http://maho.wang/?id=23  
 
